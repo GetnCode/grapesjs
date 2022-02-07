@@ -351,7 +351,7 @@ $colorsAll: (one, $primaryColor),
 	outline: 3px solid $colorYell;
 	outline-offset: -3px;
 	text-align: center;
-	font-size: math.div($imageCompDim, 3);
+	font-size: $imageCompDim / 3;
 	cursor: pointer;
 
   	&.fa-picture-o::after{
